@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Engineering Lab</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Profile Section -->
+    <section class="profile">
+        <div class="img-div">
+            <img class="photo" src="./image/profile.jpg" alt="">
+            <h2>Md.Israk Ahmmed</h2>
+            <p class="mern-stack" style="font-size: 16px; color:black;">Front-end Developer</p>
+            <p>Email: israk.cse8.bu@gmail.com | Phone: +8801755352570</p>
+            <p>Address: Dept of CSE, University of Barishal</p>
+        </div>
+    </section>
+
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section class="about-me" id="about">
+            <h2>About Me</h2>
+            <p>
+                Motivated web developer with 2 years of experience in creating dynamic and responsive websites using HTML, CSS, and JavaScript. Strong ability to learn and adapt to new technologies, with a passion for creating user-friendly designs.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <table id="skill">
+                <tr>
+                    <td>HTML5 & CSS3</td>
+                </tr>
+                <tr>
+                    <td>TailwindCSS Framework</td>
+                </tr>
+                <tr>
+                    <td>JavaScript & ReactJS</td>
+                </tr>
+                <tr>
+                    <td>PHP & MongoDB</td>
+                </tr>
+                <tr>
+                    <td>Adobe Photoshop & Illustrator</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-container" id="experience">
+            <h2>Experience</h2>
+            <div class="experience-div custom-bullets">
+             <p><span class="experience-title">Junior Software Engineer -</span> OrbitX.BD. Jan 2024 - Present <br> Developed and maintained the company website, ensuring a smooth user experience across all devices.</p> 
+            </div>
+            <div class="experience-div">
+                <p><span class="experience-title">Web Developer -</span> NEXTstack Solution. Aug 2024 - Dec 2024 <br> Assisted in the development of client websites, focusing on front-end design and functionality.</p>
+            </div>
+            <div class="experience-div">
+                <p><span class="experience-title">Intern -</span> Apps Code. Jun 2023 - Jul 2024 <br> Worked on various small-scale projects, gaining hands-on experience in web design and development.</p>
+            </div>
+        </section>
+
+
+<!-- Education Section -->
+        <section class="education-container" id="education">
+            <h2 class="education-title">Education</h2>
+            <table id="education-table-content">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Passing Year</th>
+                    <th>CGPA</th>
+                </tr>
+                <tr>
+                    <td>Bachelor of Science in Computer Science & Engineering</td>
+                    <td>University of Barishal</td>
+                    <td>2026</td>
+                    <td>3.60</td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary Certificate</td>
+                    <td>Amrita Laldey College</td>
+                    <td>2020</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td>Secondary School Certificate</td>
+                    <td>Govt. Goila Model School</td>
+                    <td>2018</td>
+                    <td>5.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Achievements and Awards Section -->
+        <section class="Achievements" id="achievements">
+            <h2>Achievements and Awards</h2>
+            <table id="Achievement">
+                <tr>
+                    <td>CSS Design Awards - Shopify - 2022</td>
+                </tr>
+                <tr>
+                    <td>Interaction Awards - Dropbox - 2010</td>
+                </tr>
+                <tr>
+                    <td>Google DevExpert Award - Basecamp - 2018</td>
+                </tr>
+                <tr>
+                    <td>Developed a Unique Web Application - Salesforce - 2020</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="Contact-container" id="contact">
+            <h2>Contact Me</h2>
+            <div>
+                <form action="/action_page.php">
+                    <label for="fname">Name:</label>
+                    <br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+                    <label for="email">Email:</label> <br>
+                    <input type="text" id="email" name="email" placeholder="Your email.."> <br>
+                    <label for="message">Message:</label> <br>
+                    <textarea id="message" name="message" placeholder="Write something.." style="width:100%;" rows="5"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <h1 class="footer-title">© 2024 Israk. All Rights Reserved.</h1>
+
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,298 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* background-color: #C41393; */
+}
+
+.profile {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* box-shadow: 10px 10px 10px rgba(255,255,255 ); */
+    padding-top: 0;
+}
+
+
+
+.img-div p {
+    color: gray;
+    font-size: medium;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.img-div p {
+    color: gray;
+    font-size: small;
+}
+
+/* Navbar Style Start */
+header {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    width: 60%;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* Navbar Style End */
+
+/* About Me Section Start */
+.about-me {
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 30px;
+}
+
+.about-me h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* About Me Section End */
+
+/* Skills Section Style Start */
+.skills {
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+}
+
+.skills h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+#skill {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#skill td {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-left: 5px solid #000;
+    border-bottom: 5px solid #fffefe;
+    background-color: #f9f9f9;
+}
+
+#skill tr:nth-child(even) {
+    background-color: #554141;
+}
+/* Skills Section Style End */
+
+/* Experience Section Style Start */
+.experience-container {
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+}
+
+.experience-title {
+    font-weight: bold;
+}
+
+.experience-div {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-left: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid #fffefe;
+    margin: 10px 0;
+}
+
+.experience-container h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+/* Experience Section Style End */
+
+/* Education Section Style Start */
+.education-container {
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-bottom: 20px;
+}
+
+.education-title {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+#education-table-content {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#education-table-content td, 
+#education-table-content th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-left: 12px;
+    font-size: 15px;
+}
+
+#education-table-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#education-table-content tr:hover {
+    background-color: #ddd;
+}
+
+#education-table-content th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: rgb(62, 61, 61);
+    color: white;
+}
+/* Education Section Style End */
+
+/* Achievements Section Style Start */
+.Achievements {
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+}
+
+#Achievement {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Achievement td {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-left: 5px solid #000;
+    border-bottom: 5px solid #fffefe;
+    background-color: #f9f9f9;
+}
+
+.Achievements h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+/* Achievements Section Style End */
+
+/* Contact Section Style Start */
+.Contact-container {
+    padding: 10px 100px;
+    background-color: #f1f0f0;
+    margin-top: 10px;
+}
+
+.Contact-container h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #25a029;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #28832d;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+}
+
+/* Contact Section Style End */
+
+
+/* footer section style start */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* footer section style end */
